@@ -4,7 +4,7 @@ use strict;
 
 # documentation/placeholder package
 
-our $VERSION = '0.10';
+our $VERSION = '0.20';
 our $HANDSHAKEFORMATSTRING = 'RPC-Lite %s / %s %s';
 
 use RPC::Lite::Client;
@@ -133,6 +133,20 @@ available.  See RPC::Lite::Threading for more information.
     return $value1 + $value2;
   }
 
+=head1 SUPPORT
+
+Please visit the project homepage at:
+
+  http://www.rpc-lite.org/
+
+If you are interested in discussing RPC::Lite, please consider joining
+the email list:
+
+  https://www.fdntech.com/secure/mailman/listinfo/rpc-lite
+
+If you would like to join the development email list, please visit:
+
+  https://www.fdntech.com/secure/mailman/listinfo/rpc-lite-dev
 
 =head1 AUTHORS
 

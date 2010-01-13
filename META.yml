@@ -1,17 +1,26 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         RPC-Lite
-version:      0.10
-version_from: lib/RPC/Lite.pm
-installdirs:  site
+--- #YAML:1.0
+name:               RPC-Lite
+version:            0.20
+abstract:           A lightweight yet flexible framework for remote process communication.
+author:
+    - Andrew Burke <aburke@bitflood.org>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
 requires:
-    Data::Dumper:                  0
-    IO::Select:                    0
-    IO::Socket:                    0
-    JSON:                          1.07
-    threads:                       0
-    threads::shared:               0
-    XML::Simple:                   2.14
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+    Data::Dumper:     0
+    IO::Select:       0
+    IO::Socket:       0
+    JSON:             1.07
+    threads:          0
+    threads::shared:  0
+    XML::Simple:      2.14
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.46
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
